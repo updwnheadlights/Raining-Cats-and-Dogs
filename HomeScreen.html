@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>log in</title>
+    <title>Name Entry</title>
     <style>
         body {
             width: 325px;
@@ -17,18 +17,13 @@
             font-family: -apple-system, BlinkMacSystemFont, sans-serif;
         }
 
-        div {
-            align-items: center;
-            display: flex;
-            width: 100%;
-            height: 100%;
-            justify-content: center;
-            text-align: center;
-            margin: auto;
-            box-sizing: border-box;
-            background-color: #F0E7DB;
+        p {
+            font-size: 18px;
         }
 
+        form {
+            font-size: 18px;
+        }
 
         .button-56 {
             align-items: center;
@@ -53,6 +48,7 @@
             -webkit-user-select: none;
             touch-action: manipulation;
         }
+
 
         .button-56:after {
             background-color: #B5B5D5;
@@ -92,7 +88,12 @@
 
 <body>
     <img src="icon48.png" style="float:center;" />
-    <h3 style="color: black; font-weight: bold;font-size: 20px; text-align: center;">Rainging Cats and Dogs</h3>
+    <h3 style="color: black; font-weight: bold;font-size: 20px; text-align: center;"> Rainging Cats and Dogs</h3>
+    <p>Hello! before we get started.</p>
+    <form>
+        <label for="fname">What's your Name?</label><br>
+        <input type="text" STYLE="background-color: #B5B5D5" ; id="fname" name="fname"><br>
+    </form>
     <button class="button-56" role="button">Let's Go!</button>
 </body>
 
